@@ -8,3 +8,7 @@ module "hello-ec2" {
   Name = "HelloWorld"
   Region = "us-east-2"
 }
+
+module "local-module" {
+  source  = "./local-module"
+}
