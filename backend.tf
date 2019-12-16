@@ -4,7 +4,7 @@ terraform {
     organization = "rmadamanchi"
 
     workspaces {
-      name = "tf-hell"
+      name = "tf-hello"
     }
   }
 }
