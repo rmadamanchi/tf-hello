@@ -10,5 +10,5 @@ module "hello-ec2" {
 }
 
 module "local-module" {
-  source  = "./local-module"
+  source  = "./local-module1"
 }
